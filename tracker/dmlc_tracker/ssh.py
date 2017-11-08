@@ -216,7 +216,7 @@ def submit(args):
         else:
             #always colocate.
             #first, spread workers.
-            assert False, "Unknown PHUB_COLOCATE_POLICY " + os.environ[PHUB_COLOCATE_POLICY]
+            assert False, "Unknown PHUB_COLOCATE_POLICY " + ColocationPolicy
                 
 
         return ssh_submit
